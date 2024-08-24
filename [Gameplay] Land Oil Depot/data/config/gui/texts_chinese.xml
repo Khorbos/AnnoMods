@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505006</GUID>
+      <Text>陆地油库</Text>
+    </Text>
+  </ModOp>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505012</GUID>
+      <Text>提供火车运输，并允许您储存石油。贸易需要一个石油港口。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

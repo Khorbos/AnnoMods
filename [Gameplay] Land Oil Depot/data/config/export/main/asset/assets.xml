@@ -1,0 +1,488 @@
+<ModOps>
+    <!-- Buildings -->
+    <ModOp GUID="101329" Type="addNextSibling">
+        <Asset>
+            <Template>WarehouseStrategic</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505006</GUID>
+                    <Name>logistic_oil</Name>
+                    <IconFilename>data/modgraphics/ui/icon_oil_warehouse.png</IconFilename>
+                    <InfoDescription>2143505012</InfoDescription>
+                </Standard>
+                <Blocking>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles><!-- building rails (dummyblocker) -->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <PickingAsset>2143505006</PickingAsset>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient><!-- Money -->
+                            <Amount>40000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient><!-- timber -->
+                            <Amount>140</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient><!-- bricks -->
+                            <Amount>105</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient><!-- beams -->
+                            <Amount>80</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient><!-- window -->
+                            <Amount>45</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient><!-- concrete -->
+                            <Amount>45</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>CoalOilHarbour</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>
+                                data/modgraphics/buildings/special/logistic_oil_moderate/logistic_oil_moderate.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>101404</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200920</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Locked />
+                <Infolayer />
+                <FeedbackController />
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>250</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode />
+                <MinimapToken />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <StorageBase>
+                    <ProductStorageList>120056</ProductStorageList>
+                </StorageBase>
+                <Attackable />
+                <Upgradable />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product><!-- Money -->
+                            <Amount>1000</Amount>
+                            <InactiveAmount>500</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <BuildingUnique />
+                <UpgradeList />
+                <TrainStation>
+                    <MaxTrainCount>5</MaxTrainCount>
+                </TrainStation>
+                <QuestObject />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>WarehouseStrategic</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505007</GUID>
+                    <Name>logistic_oil_colony01</Name>
+                    <IconFilename>data/modgraphics/ui/icon_oil_warehouse.png</IconFilename>
+                    <InfoDescription>2143505012</InfoDescription>
+                </Standard>
+                <Blocking>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles><!-- building rails (dummyblocker) -->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <PickingAsset>2143505007</PickingAsset>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient><!-- Money -->
+                            <Amount>40000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient><!-- timber -->
+                            <Amount>140</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient><!-- bricks -->
+                            <Amount>105</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient><!-- beams -->
+                            <Amount>80</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient><!-- window -->
+                            <Amount>45</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient><!-- concrete -->
+                            <Amount>45</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>CoalOilHarbour</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>
+                                data/modgraphics/buildings/special/logistic_oil_colony01/logistic_oil_colony01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>101404</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Text>
+                    <TextOverride>2143505006</TextOverride>
+                </Text>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200920</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Locked />
+                <Infolayer />
+                <FeedbackController />
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>250</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode />
+                <MinimapToken />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <StorageBase>
+                    <ProductStorageList>120056</ProductStorageList>
+                </StorageBase>
+                <Attackable />
+                <Upgradable />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product><!-- Money -->
+                            <Amount>1000</Amount>
+                            <InactiveAmount>500</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <BuildingUnique />
+                <UpgradeList />
+                <TrainStation>
+                    <MaxTrainCount>5</MaxTrainCount>
+                </TrainStation>
+                <QuestObject />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- End Buildings -->
+
+    <!-- Categories -->
+    <Group>
+        <!-- Old World -->
+        <ModOp GUID="500506,269756" Type="add" Path="/Values/ProductionChain/Tier1">
+            <Item>
+                <Building>2143505006</Building>
+            </Item>
+        </ModOp>
+        <!-- New World -->
+        <ModOp GUID="500916,269835,7305" Type="add" Path="/Values/ProductionChain/Tier1">
+            <Item>
+                <Building>2143505007</Building>
+            </Item>
+        </ModOp>
+    </Group>
+    <!-- End Categories -->
+
+    <!-- Texts -->
+    <ModOp GUID="10951" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505012</GUID>
+                    <Name>Oil Harbor InfoDescription</Name>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- End Texts -->
+
+    <!-- Triggers -->
+    <ModOp GUID="130248" Type="addNextSibling">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505008</GUID>
+                    <Name>unlock intermediate moderate 4.0</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000003</Context><!-- Moderate Population 4 -->
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>2143505006</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505009</GUID>
+                    <Name>unhide intermediate colony01 2.1</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context><!-- Colony01 Population 2 -->
+                                <CounterAmount>300</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>2143505007</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505010</GUID>
+                    <Name>unlock intermediate colony01 2.2</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context><!-- Colony01 Population 2 -->
+                                <CounterAmount>600</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>2143505007</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2143505011</GUID>
+                    <Name>Creative unlock</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Values>
+                            <ConditionPropsNegatable />
+                            <Condition />
+                            <ConditionIsCreativeMode />
+                        </Values>
+                        <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>2143505006</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>2143505007</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets />
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- End Triggers -->
+</ModOps>

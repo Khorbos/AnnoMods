@@ -1,0 +1,14 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <GUID>2143505006</GUID>
+            <Text>Land Oil Depot</Text>
+        </Text>
+    </ModOp>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <GUID>2143505012</GUID>
+            <Text>Provides trains for transportation and allows you to store oil. Trade requires an oil harbour.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

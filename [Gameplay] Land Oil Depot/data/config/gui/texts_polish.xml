@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505006</GUID>
+      <Text>Lądowy skład ropy naftowej</Text>
+    </Text>
+  </ModOp>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505012</GUID>
+      <Text>Zapewnia pociągi do transportu i pozwala na przechowywanie ropy. Handel wymaga portu naftowego.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505006</GUID>
+      <Text>Dépôt pétrolier</Text>
+    </Text>
+  </ModOp>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505012</GUID>
+      <Text>Fournit des trains pour le transport et permet le stockage de pétrole. Le commerce nécessite un port pétrolier.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

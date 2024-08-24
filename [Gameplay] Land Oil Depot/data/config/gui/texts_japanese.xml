@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505006</GUID>
+      <Text>ランド・オイル・デポ</Text>
+    </Text>
+  </ModOp>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505012</GUID>
+      <Text>輸送用の列車を提供し、石油を保管することができます。貿易には石油港が必要です。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

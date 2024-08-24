@@ -1,0 +1,48 @@
+{
+    "Version": "1.0",
+    "ModID": "khobs_land_oil_depot",
+    "IncompatibleIds": null,
+    "ModDependencies": null,
+    "Category": {
+      "Chinese": "Gameplay",
+      "English": "Gameplay",
+      "French": "Gameplay",
+      "German": "Gameplay",
+      "Italian": "Gameplay",
+      "Japanese": "Gameplay",
+      "Korean": "Gameplay",
+      "Polish": "Gameplay",
+      "Russian": "Gameplay",
+      "Spanish": "Gameplay",
+      "Taiwanese": "Gameplay"
+    },
+    "ModName": {
+      "Chinese": "Land Oil Warehouse",
+      "English": "Land Oil Warehouse",
+      "French": "Land Oil Warehouse",
+      "German": "Land Oil Warehouse",
+      "Italian": "Land Oil Warehouse",
+      "Japanese": "Land Oil Warehouse",
+      "Korean": "Land Oil Warehouse",
+      "Polish": "Land Oil Warehouse",
+      "Russian": "Land Oil Warehouse",
+      "Spanish": "Land Oil Warehouse",
+      "Taiwanese": "Land Oil Warehouse"
+    },
+    "Description": {
+      "Chinese": "Add an oil depot with trains for better distribution of your oil.",
+      "English": "Add an oil depot with trains for better distribution of your oil.",
+      "French": "Add an oil depot with trains for better distribution of your oil.",
+      "German": "Add an oil depot with trains for better distribution of your oil.",
+      "Italian": "Add an oil depot with trains for better distribution of your oil.",
+      "Japanese": "Add an oil depot with trains for better distribution of your oil.",
+      "Korean": "Add an oil depot with trains for better distribution of your oil.",
+      "Polish": "Add an oil depot with trains for better distribution of your oil.",
+      "Russian": "Add an oil depot with trains for better distribution of your oil.",
+      "Spanish": "Add an oil depot with trains for better distribution of your oil.",
+      "Taiwanese": "Add an oil depot with trains for better distribution of your oil."
+    },
+    "DLCDependencies": [],
+    "CreatorName": "Khobs",
+    "CreatorContact": "https://github.com/Khorbos/AnnoMods"
+  }

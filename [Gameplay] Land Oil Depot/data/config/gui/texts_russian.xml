@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505006</GUID>
+      <Text>Наземная нефтебаза</Text>
+    </Text>
+  </ModOp>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505012</GUID>
+      <Text>Предоставляет поезда для транспортировки и позволяет хранить нефть. Для торговли нужна нефтяная гавань.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

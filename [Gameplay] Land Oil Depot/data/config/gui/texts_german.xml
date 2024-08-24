@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505006</GUID>
+      <Text>Land Öl Depot</Text>
+    </Text>
+  </ModOp>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>2143505012</GUID>
+      <Text>Stellt Züge für den Transport zur Verfügung und ermöglicht die Lagerung von Öl. Der Handel erfordert einen Ölhafen.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
